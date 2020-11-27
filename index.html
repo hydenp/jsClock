@@ -4,44 +4,44 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
 
-        <title>Hyden's JS Clock</title>
+<head>
+  <meta charset="utf-8">
 
-        <link rel="stylesheet" href="styles.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div class="title">
+  <title>Hyden's JS Clock</title>
 
-          <h1> A simple JavaScript Clock! </h1>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
-        </div>
+  <script type="text/javascript" src="scripts.js">
 
+  </script>
+</head>
 
-        <div class="clock">
+<body>
+  <div class="title">
 
-          <p id="time">00:00</p>
+    <h1> A simple JavaScript Clock! </h1>
 
-        </div>
-        <main class="buttonCont">
-          
-          <div>
-            <button id="button1"> Start </button>
-          </div>
-          <div class="buttonCont">
-            <button id="button1"> Stop </button>
-          </div>
-          <div class="buttonCont">
-            <button id="button1"> Reset </button>
-          </div>
+  </div>
 
 
-        </main>
+  <div class="clock">
 
+    <p id="time">00:00</p>
 
-        <script src="scripts.js" async defer></script>
-    </body>
+  </div>
+  <main class="buttonCont">
+
+    <div>
+      <button id="startstop" onclick="startStop()"> Start </button>
+    </div>
+    <div class="buttonCont">
+      <button id="reset" onclick="Reset()"> Reset </button>
+    </div>
+
+  </main>
+</body>
+
 </html>

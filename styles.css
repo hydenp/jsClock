@@ -33,15 +33,15 @@ button {
   border-color: white;
   border-radius: 20px;
 
-  margin-left: 20px;
-  margin-right: 20px;
-
-  /* display: inline-block; */
+  margin: 30px;
 }
 
 button:hover {
   background-color: white;
 }
+
+/* remove annoying border around button after clicked */
+button:focus {outline:0;}
 
 .buttonCont  {
   text-align: center;
